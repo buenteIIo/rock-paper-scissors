@@ -44,3 +44,5 @@ const playGame = () => {
   console.log(`Your choice: ${userChoice}\nComputer choice: ${computerChoice}`);
   return determineWinner(userChoice, computerChoice);
 }
+
+//first commit on testBranch
