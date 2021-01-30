@@ -9,3 +9,4 @@ const getUserChoice = userInput => {
     console.log('Enter valid choice');
   }
 }
+//console.log(user); line to prove lines 3-4 (it should not log anything)
