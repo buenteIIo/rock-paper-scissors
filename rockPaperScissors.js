@@ -22,3 +22,18 @@ const getComputerChoice = () => {
     return 'scissors'
   }
 }
+
+const determineWinner = (userChoice, computerChoice) => {
+  console.log(userChoice, computerChoice);
+  if (userChoice === computerChoice) {
+    return 'It is a tie!'
+  } else if (userChoice === 'rock' && computerChoice === 'scissors') {
+    return 'You win!'
+  } else if (userChoice === 'scissors' && computerChoice === 'paper') {
+    return 'You win!';
+  } else if (userChoice === 'paper' && computerChoice === 'rock') {
+    return 'You win!';
+  } else {
+    return 'Computer wins!';
+  }
+}
