@@ -37,3 +37,10 @@ const determineWinner = (userChoice, computerChoice) => {
     return 'Computer wins!';
   }
 }
+
+const playGame = () => {
+  const userChoice = getUserChoice('PAPER');
+  const computerChoice = getComputerChoice();
+  console.log(`Your choice: ${userChoice}\nComputer choice: ${computerChoice}`);
+  return determineWinner(userChoice, computerChoice);
+}
